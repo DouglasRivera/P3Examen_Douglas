@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "PC.h"
+#include "Red.h"
 #include <vector>
 using namespace std;
 

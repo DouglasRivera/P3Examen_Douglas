@@ -1,8 +1,5 @@
 #include "PC.h"
-#include <iostream>
-#include <vector>
-#include <cstring>
-#include <cmath>
+
 using namespace std;
 
 PC::PC(string mascara, string ip,string nombre){
