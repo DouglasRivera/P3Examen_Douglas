@@ -14,6 +14,7 @@ class PC {
 
 	public:
 		PC(string,string,string);
+		~PC();
 		void setMascara(string);
 		void setIp(string);
 		void setNombre(string);

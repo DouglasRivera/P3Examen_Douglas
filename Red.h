@@ -9,6 +9,8 @@ class Red
 	private:
 	vector <PC*> pc;	
 	public:
+	Red();
+	~Red();
 	vector<PC*> getPC(); 
 };
 

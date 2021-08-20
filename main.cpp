@@ -95,6 +95,10 @@ int main() {
 			}
 		}//fin del switch
 	}//fin while menu
+	for (auto PC : pcs) {
+		delete PC;
+	}
+	pcs.clear();
 	return 0;
 }
 int menu() {

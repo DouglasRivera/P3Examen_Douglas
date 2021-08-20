@@ -8,6 +8,9 @@ PC::PC(string mascara, string ip,string nombre){
 	this->nombre=nombre;
 }
 
+PC::~PC(){
+}
+
 void PC::setMascara(string mascara){
  	this->mascara = mascara; 
 } 
